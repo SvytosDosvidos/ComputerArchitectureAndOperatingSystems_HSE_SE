@@ -1,0 +1,20 @@
+# Сравнительный тест стратегий: Охота + координация против случайной стрельбы
+width=10
+height=10
+rounds=100
+delay_ms=0
+seed=999
+log_file=battle_comparison.log
+
+ship_4=1
+ship_3=2
+ship_2=3
+ship_1=4
+
+coord_a=deconflict
+strat_a=hunt
+
+coord_b=none
+strat_b=random
+
+allow_repeat=0

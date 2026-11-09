@@ -1,0 +1,26 @@
+# Конфигурация по умолчанию: Стандартный морской бой 10x10
+# НИУ ВШЭ, АКОС, ИДЗ №1, Вариант 22
+
+width=10
+height=10
+rounds=80
+delay_ms=0
+seed=12345
+log_file=battle_default.log
+
+# Состав флотов (классический)
+ship_4=1
+ship_3=2
+ship_2=3
+ship_1=4
+
+# Стратегии сторон
+# coord: deconflict | none
+coord_a=deconflict
+strat_a=hunt
+
+coord_b=none
+strat_b=random
+
+# Правила
+allow_repeat=0

@@ -1,0 +1,20 @@
+# Быстрый тестовый сценарий 7x7 с малыми флотами
+width=7
+height=7
+rounds=50
+delay_ms=0
+seed=42
+log_file=battle_small.log
+
+ship_4=0
+ship_3=1
+ship_2=2
+ship_1=2
+
+coord_a=deconflict
+strat_a=hunt
+
+coord_b=deconflict
+strat_b=hunt
+
+allow_repeat=0
